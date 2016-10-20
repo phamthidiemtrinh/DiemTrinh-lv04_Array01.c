@@ -4,11 +4,32 @@ Phạm Thị Diễm Trinh
 <a name="Array"></a>
 ## 1.Array
 
-** Cú pháp : **  
+**Cú pháp :**  
  `<kiểu dữ liệu> <tên mảng> <danh sách chiều của mảng>`  
-** Ví dụ :**
+**Ví dụ :**
 - `int A[100]` : mảng một chiều gồm có 100 phần tử kiểu số nguyên.  
 - `float B[2][3]` : mảng hai chiều có 2 dòng, 3cột kiểu số thực 
 
-** Lưu ý: **
+**Lưu ý:**
 - Các phần tử trong một mảng phải cùng kiểu dữ liệu.
+
+<a name="motchieu"></a>
+## 2.Mảng một chiều
+#### 2.1 Cú pháp:  
+ 
+ `kiểu_dữ_liệu tên_mảng [số_phần_tử]`  
+ 
+**Vídụ:**
+  ` int ia[10]`
+  - mảng ia có 10 phần tử kiểu số nguyên
+  
+  ![](http://tuhocanninhmang.com/files/array1.png)  
+#### 2.2 Cách tổ chức và truy xuất
+ 
+  - cách tổ chức phần từ như sau:
+  
+  ![](http://tuhocanninhmang.com/files/array2.png)
+  
+  - Mỗi phần tử được cấp một ô nhớ trong một dãy liền kề, và được đánh dấu bằng một chỉ số.
+  
+  
