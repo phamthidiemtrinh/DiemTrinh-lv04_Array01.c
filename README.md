@@ -53,7 +53,7 @@ Phạm Thị Diễm Trinh
 - Cách 2: duyệt lần lượt tới từng phần tử và nhập bằng một vòng For  
    **Ví dụ:**
     `For (i=0,i<10,i++) scanf("%d",&a[i]);`  
-     Và nhập lần lượt từng phần tử: {7,4,10,15,90,30,3,21,56,80} 
+     Và nhập lần lượt từng phần tử: {7,4,10,15,90,30,3,21,56,80}   
      
 **Lưu ý:** cả hai cách nhập đều cho cùng một kết quả:  
 
@@ -107,7 +107,7 @@ http://mis.uel.edu.vn/forum/index.php?threads/coffee-thu%E1%BA%ACt-to%C3%81n-t%C
    for (j = 0; j < 4; j++)
   scanf("%d", &ia[i][j]);
 `
-    Và nhập lần lượt từng phần tử: {2,3,9,4,5,6,7,6,2,9,4,7};
+    Và nhập lần lượt từng phần tử: {2,3,9,4,5,6,7,6,2,9,4,7};  
 **Lưu ý:** cả hai cách nhập đều cho cùng một kết quả:
 
 ![](http://www.oktot.com/wp-content/uploads/2016/04/image006-5.jpg)
