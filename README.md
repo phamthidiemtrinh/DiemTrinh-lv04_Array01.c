@@ -121,7 +121,7 @@ http://mis.uel.edu.vn/forum/index.php?threads/coffee-thu%E1%BA%ACt-to%C3%81n-t%C
 
 ![](http://www.oktot.com/wp-content/uploads/2016/04/image006-5.jpg)
   
- - Cách truy xuất : Tên_Mảng[chỉ số dòng][chỉ số cột]
+ - Cách truy xuất : Tên_Mảng[chỉ số dòng][chỉ số cột]  
  **Ví Dụ :** từ mảng vừa nhập phía trên, nếu thực hiện:  
   ` b=a[0][0]`: nghĩa là giá trị ứng với phần tử có chỉ số dòng là 0, chỉ số cột là 0 trong mảng a sẽ được gán cho b; khi đó b=2;
  
