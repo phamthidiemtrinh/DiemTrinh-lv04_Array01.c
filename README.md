@@ -39,24 +39,25 @@ Phạm Thị Diễm Trinh
 - Cách 1: có thể khởi tạo giá trị ngay khi khai báo   
   **Cú pháp :**  
   `kiểu_dữ_liệu   tên_mảng[số_phần_tử_của_mảng] = {danh_sách_các_giá_trị_khởi_tạo};`   
-  Khi khai báo mảng có khởi tạo giá trị thì có thể không cần chỉ ra số phần tử mảng  
+   Khi khai báo mảng có khởi tạo giá trị thì có thể không cần chỉ ra số phần tử mảng  
   
-**Ví dụ:**  
-`int a[10] = {7,4,10,15,90,30,3,21,56,80};`  
-Hoặc  
-`int a[] = {7,4,10,15,90,30,3,21,56,80};`(không khai báo số lượng phần tử tối đa)  
+  **Ví dụ:**  
+  `int a[10] = {7,4,10,15,90,30,3,21,56,80};`  
+   Hoặc  
+   `int a[] = {7,4,10,15,90,30,3,21,56,80};`(không khai báo số lượng phần tử tối đa)  
 
 - Cách 2: duyệt lần lượt tới từng phần tử và nhập bằng một vòng For  
-**Ví dụ:**
-`For (i=0,i<10,i++) scanf("%d",&a[i]);`  
-Và nhập lần lượt từng phần tử: {7,4,10,15,90,30,3,21,56,80}  
+   **Ví dụ:**
+    `For (i=0,i<10,i++) scanf("%d",&a[i]);`  
+     Và nhập lần lượt từng phần tử: {7,4,10,15,90,30,3,21,56,80} 
+     
 **Lưu ý:** cả hai cách nhập đều cho cùng một kết quả:  
 
 ![](https://sites.google.com/site/huynhtantaisd/_/rsrc/1364235526717/thuthuat/lap-trinh-c-c/mang-mang-mot-chieu/mang-mot-chieu.gif)
-  
- -Cách truy xuất : Tên_Mảng[chỉ số]
- **Ví Dụ :** từ mảng vừa nhập phía trên, nếu thực hiện:
-` b=a[3]`: nghĩa là giá trị ứng với phần tử có chỉ số là 3 trong mảng a sẽ được gán cho b; khi đó b=15;
+
+- Cách truy xuất : Tên_Mảng[chỉ số]
+    **Ví Dụ :** từ mảng vừa nhập phía trên, nếu thực hiện:
+    ` b=a[3]`: nghĩa là giá trị ứng với phần tử có chỉ số là 3 trong mảng a sẽ được gán cho b; khi đó b=15;
  
  <a name="haichieu"></a>
 ## 3. Mảng hai chiều
