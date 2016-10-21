@@ -68,12 +68,12 @@ Phạm Thị Diễm Trinh
 **Trong đó:** 
 - các phần tử được bố trí theo ma trận
 - spt1 là số phần tử chiều 1 (số dòng) 
-- spt2 số phần tử chiều 2 (số cột)
+- spt2 số phần tử chiều 2 (số cột)  
 **Vídụ:**
   ` int ia[5][10]`
     mảng ia có 50 phần tử kiểu số nguyên
     
-  !(http://tuhocanninhmang.com/images/array1.png)  
+  ![](http://tuhocanninhmang.com/images/array1.png)  
   
 #### *3.2 Cách tổ chức* 
 
@@ -89,8 +89,8 @@ Phạm Thị Diễm Trinh
   kiểu_dữ_liệu   tên_mảng[spt1][spt2] = {danh_sách_các_giá_trị_khởi_tạo};     
   **Vídụ: **  
 `int a[3][4] = {2,3,9,4,5,6,7,6,2,9,4,7};`
-- Cách 2: duyệt lần lượt tới từng phần tử và nhập bằng hai vòng For
-   **Ví dụ: **
+- Cách 2: duyệt lần lượt tới từng phần tử và nhập bằng hai vòng For  
+   **Ví dụ:**
   `for (i = 0; i < 3; i++)
    for (j = 0; j < 4; j++)
   scanf("%d", &ia[i][j]);
@@ -101,6 +101,6 @@ Phạm Thị Diễm Trinh
 ![](http://www.oktot.com/wp-content/uploads/2016/04/image006-5.jpg)
   
  - Cách truy xuất : Tên_Mảng[chỉ số dòng][chỉ số cột]
- ** Ví Dụ :** từ mảng vừa nhập phía trên, nếu thực hiện:
+ **Ví Dụ :** từ mảng vừa nhập phía trên, nếu thực hiện:  
   ` b=a[0][0]`: nghĩa là giá trị ứng với phần tử có chỉ số dòng là 0, chỉ số cột là 0 trong mảng a sẽ được gán cho b; khi đó b=2;
  
