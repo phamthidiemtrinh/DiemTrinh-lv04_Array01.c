@@ -73,7 +73,7 @@ sử dụng
     ` b=a[3]`: nghĩa là giá trị ứng với phần tử có chỉ số là 3 trong mảng a sẽ được gán cho b; khi đó b=15;
   
 #### *2.4 Cách sắp xếp và tìm kiếm trên mảng 1 chiều*
-Trên thực tế, người mới nhập môn lập trình không cần phải quá quan tâm đến các thuật toán tìm kiếm và sắp xếp quá phức tạp (rất dễ bị nhầm lẫn, loạn suy ngĩ), chỉ nên tham khảo các thuật toán đơn giản như : sắp xếp nổi bọt, sắp xếp lựa chọn, quickshort, tìm kiếm tuần tự (có thể xem thêm tìm kiếm nhị phân vì khá dễ hiểu và đơn giản)  
+Trên thực tế, người mới nhập môn lập trình không cần phải quá quan tâm đến các thuật toán tìm kiếm và sắp xếp quá phức tạp (rất dễ bị nhầm lẫn, loạn suy nghĩ), chỉ nên tham khảo các thuật toán đơn giản như : sắp xếp nổi bọt, sắp xếp lựa chọn, quickshort, tìm kiếm tuần tự (có thể xem thêm tìm kiếm nhị phân vì khá dễ hiểu và đơn giản)  
 
 **Một số thuật sắp xếp:** (có thể tham khảo tại đây)  
 https://voer.edu.vn/c/cac-phuong-phap-sap-xep-co-ban/7c75a38d/6885d36d  
