@@ -22,14 +22,15 @@ Phạm Thị Diễm Trinh
 **Vídụ:**
   ` int ia[10]`
   - mảng ia có 10 phần tử kiểu số nguyên
-  
   ![](http://tuhocanninhmang.com/files/array1.png)  
-#### 2.2 Cách tổ chức và truy xuất
- 
-  - cách tổ chức phần từ như sau:
   
+#### 2.2 Cách tổ chức 
+ 
+  - Mỗi phần tử được cấp một ô nhớ trong một dãy liền kề và có trật tự nhất định. 
+  - Chỉ số đầu tiên bắt đầu bằng số 0
+  - cách tổ chức phần từ như sau:
   ![](http://tuhocanninhmang.com/files/array2.png)
   
-  - Mỗi phần tử được cấp một ô nhớ trong một dãy liền kề, và được đánh dấu bằng một chỉ số.
+###
   
   
