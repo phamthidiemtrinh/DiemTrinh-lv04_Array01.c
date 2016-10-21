@@ -12,7 +12,16 @@ Phạm Thị Diễm Trinh
  `<kiểu dữ liệu> <tên mảng> <danh sách chiều của mảng>`  
 **Ví dụ :**
 - `int A[100]` : mảng một chiều gồm có 100 phần tử kiểu số nguyên.  
-- `float B[2][3]` : mảng hai chiều có 2 dòng, 3cột kiểu số thực 
+- `float B[2][3]` : mảng hai chiều có 2 dòng, 3cột kiểu số thực  
+
+**Cách khai báo khác:**  
+ Định nghĩa kiểu mới – từ khóa **typedef**  
+ *Ví dụ:*  
+ typedef int mangnguyen[10][10];    
+typedef float mangthuc[10];  
+sử dụng  
+ mangnguyen a;  
+ mangthuc b;  
 
 **Lưu ý:**
 - Các phần tử trong một mảng phải cùng kiểu dữ liệu.
