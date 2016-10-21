@@ -1,5 +1,9 @@
 Phạm Thị Diễm Trinh
 ### Báo cáo học Array
+[1.Array](#Array)
+[2.Mảng một chiều](#motchieu)
+[3.Mảng hai chiều](#haichieu)
+
 
 <a name="Array"></a>
 ## 1. Array
@@ -14,7 +18,7 @@ Phạm Thị Diễm Trinh
 - Các phần tử trong một mảng phải cùng kiểu dữ liệu.
 
 <a name="motchieu"></a>
-## 2.Mảng một chiều
+## 2. Mảng một chiều
 #### *2.1 Cú pháp khai báo:*  
  
  `kiểu_dữ_liệu tên_mảng [số_phần_tử]` 
@@ -58,8 +62,15 @@ Phạm Thị Diễm Trinh
 - Cách truy xuất : Tên_Mảng[chỉ số]  
     **Ví Dụ :** từ mảng vừa nhập phía trên, nếu thực hiện:
     ` b=a[3]`: nghĩa là giá trị ứng với phần tử có chỉ số là 3 trong mảng a sẽ được gán cho b; khi đó b=15;
- 
- <a name="haichieu"></a>
+  
+#### *2.4 Cách sắp xếp và tìm kiếm trên mảng 1 chiều
+Trên thực tế, người mới nhập môn lập trình không cần phải quá quan tâm đến các thuật toán tìm kiếm và sắp xếp quá phức tạp (rất dễ bị nhầm lẫn, loạn suy ngĩ), chỉ nên tham khảo các thuật toán đơn giản như : sắp xếp nổi bọt, sắp xếp lựa chọn, quickshort, tìm kiếm tuần tự (có thể xem thêm tìm kiếm nhị phân vì khá dễ hiểu và đơn giản)
+**Một số thuật sắp xếp:** (có thể tham khảo tại đây)  
+https://voer.edu.vn/c/cac-phuong-phap-sap-xep-co-ban/7c75a38d/6885d36d  
+**Một số thuật tìm kiếm:** (tham khảo tại đây)
+http://mis.uel.edu.vn/forum/index.php?threads/coffee-thu%E1%BA%ACt-to%C3%81n-t%C3%8Cm-ki%E1%BA%BEm-tr%C3%8An-m%E1%BA%A2ng.145/
+
+<a name="haichieu"></a>
 ## 3. Mảng hai chiều
 #### *3.1 Cú pháp khai báo:*  
  
@@ -85,9 +96,9 @@ Phạm Thị Diễm Trinh
   
 #### *3.3 Khởi tạo và truy xuất*
 - Cách 1: có thể khởi tạo giá trị ngay khi khai báo   
- ** Cú pháp :**  
+ **Cú pháp :**  
   kiểu_dữ_liệu   tên_mảng[spt1][spt2] = {danh_sách_các_giá_trị_khởi_tạo};     
-  **Vídụ: **  
+  **Vídụ:**  
 `int a[3][4] = {2,3,9,4,5,6,7,6,2,9,4,7};`
 - Cách 2: duyệt lần lượt tới từng phần tử và nhập bằng hai vòng For  
    **Ví dụ:**
