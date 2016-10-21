@@ -1,8 +1,8 @@
 Phạm Thị Diễm Trinh
 ### Báo cáo học Array
-[1.Array](#Array)
-[2.Mảng một chiều](#motchieu)
-[3.Mảng hai chiều](#haichieu)
+[1.Array](#Array)  
+[2.Mảng một chiều](#motchieu)  
+[3.Mảng hai chiều](#haichieu)  
 
 
 <a name="Array"></a>
@@ -64,10 +64,11 @@ Phạm Thị Diễm Trinh
     ` b=a[3]`: nghĩa là giá trị ứng với phần tử có chỉ số là 3 trong mảng a sẽ được gán cho b; khi đó b=15;
   
 #### *2.4 Cách sắp xếp và tìm kiếm trên mảng 1 chiều
-Trên thực tế, người mới nhập môn lập trình không cần phải quá quan tâm đến các thuật toán tìm kiếm và sắp xếp quá phức tạp (rất dễ bị nhầm lẫn, loạn suy ngĩ), chỉ nên tham khảo các thuật toán đơn giản như : sắp xếp nổi bọt, sắp xếp lựa chọn, quickshort, tìm kiếm tuần tự (có thể xem thêm tìm kiếm nhị phân vì khá dễ hiểu và đơn giản)
+Trên thực tế, người mới nhập môn lập trình không cần phải quá quan tâm đến các thuật toán tìm kiếm và sắp xếp quá phức tạp (rất dễ bị nhầm lẫn, loạn suy ngĩ), chỉ nên tham khảo các thuật toán đơn giản như : sắp xếp nổi bọt, sắp xếp lựa chọn, quickshort, tìm kiếm tuần tự (có thể xem thêm tìm kiếm nhị phân vì khá dễ hiểu và đơn giản)  
+
 **Một số thuật sắp xếp:** (có thể tham khảo tại đây)  
 https://voer.edu.vn/c/cac-phuong-phap-sap-xep-co-ban/7c75a38d/6885d36d  
-**Một số thuật tìm kiếm:** (tham khảo tại đây)
+**Một số thuật tìm kiếm:** (tham khảo tại đây)  
 http://mis.uel.edu.vn/forum/index.php?threads/coffee-thu%E1%BA%ACt-to%C3%81n-t%C3%8Cm-ki%E1%BA%BEm-tr%C3%8An-m%E1%BA%A2ng.145/
 
 <a name="haichieu"></a>
